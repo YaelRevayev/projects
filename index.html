@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>MemoryGame</title>
-<script type = "text/javascript" src="menufunc.js">
-
-</script> 
+    <link rel="stylesheet" href="design.css">
+    <title>MemoryGame</title>
+    <script type = "text/javascript" src="menufunc.js">
+    </script> 
 <style>
 
 td {
@@ -40,9 +40,25 @@ h2{
 
 <body style="background-color:#f19bf157">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.2/sweetalert2.all.js"></script>
+    <nav>
+        <div class="logo">
+            <h4>JS PORTFOLIO - Yael</h4>
+        </div>
+        <ul class="nav-links"> 
+            <a href="#">Memory Game</a>
+            <a href="#">Tetris</a> 
+            <a href="#">AI</a>
+           <a href="#">About</a> 
+      
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
 
-    <hr size="5px" color="black">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.2/sweetalert2.all.js"></script>
     <h2 style="font:bolder"> MEMORY GAME - Sanrio</h2>
     <div class="layout">
     <button onclick="init_game()">Start Game</button>
@@ -141,6 +157,7 @@ h2{
           </tr>
         </tbody>
       </table>
+      <hr size="5px" color="black">
 </body>
 
 </html>
