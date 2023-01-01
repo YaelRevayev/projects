@@ -13,10 +13,13 @@
   h2 {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    margin-top: 30rem;
+    size: 10px;
   }
   .layout{
       display: flex;
-      padding: 0px;
+      padding: 10px;
       justify-content: center;
   }
   h4{
