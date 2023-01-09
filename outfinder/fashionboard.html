@@ -39,10 +39,11 @@
 }
 .clothing-item{
     width: 350px;
-    height: 350px;
+    height: 250px;
     text-align: center;
     padding: 50px 50px;
     width: 30%;
+    font-family: 'Cabin', sans-serif;
 
 }
 .clothing-item :hover{
@@ -50,9 +51,42 @@ color: peru;
 }
 #more-info{
     margin-left: 80px;
+    margin-bottom: 0px;
 }
 .mini-icon{
     margin-bottom: 10px;
+}
+h6{
+    color: rgb(52, 52, 52);
+    line-height: 1.5;
+}
+.pic-slide{
+    border-radius: 100%;
+    width: 105px;
+    height: 110px;
+    margin-right: 10px;
+}
+.carousel-item{
+    text-align: center;
+    background-color: #bda694;
+    color: aliceblue;
+}
+.text-review{
+    line-height: 1.5;
+    font-family: 'Cabin', sans-serif;
+    padding-bottom: 20px;
+    width: 500px;
+    margin-left: 400px;
+}
+em{
+    margin-bottom: 20px;
+}
+.part{
+    background-color: #7e6a5c;
+    width: auto;
+    height: auto ;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
     </style>
@@ -89,7 +123,7 @@ color: peru;
     <div class="row">
         <div class="col-lg-4 clothing-item">
             <i class="fa-solid fa-bullseye fa-3x  mini-icon"></i>
-            <h4>Creative</h4>
+            <h4>Create</h4>
             <h6>find the right pallete of colors for your wardrobe</h6>
         </div>
         <div class="col-lg-4 clothing-item">
@@ -100,11 +134,43 @@ color: peru;
         <div class="col-lg-4 clothing-item">
             <i class="fa-solid fa-heart fa-3x mini-icon"></i>
             <h4>Unique</h4>
-            <h6>be yourself. wather you are casual, minimalist or edgy!</h6>
+            <h6>Be yourself, wather you are casual, minimalist or edgy!</h6>
             </div>
 
 
 </section>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <div class="d-block w-100 part">
+            <h3 class="text-review">" Great Platform to explore your interests and preferences. No more boring outfits!" </h3>
+            <img src="https://kunestro.sirv.com/models/secondreview.jpg" width="563" height="788" class="pic-slide" alt="" />
+            <em> Vogue, New York</em>
+        </div>
+    </div>
+      <div class="carousel-item">
+        <div class="d-block w-100 part">
+            <h3 class="text-review">"Clothes getting their own recognition! finally!" </h3>
+            <img src="https://kunestro.sirv.com/models/ddd.jpg" width="564" height="846"  class="pic-slide" alt="...">
+             <em> De zeen, Paris </em>
+        </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
 </body>
 </html>
 
